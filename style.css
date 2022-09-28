@@ -1,0 +1,74 @@
+body {
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    height: 50px;
+    width: 100vw;
+    align-items: center;
+}
+
+.pageOne,
+.pageTwo,
+.pageThree,
+.pageFour {
+    color: red;
+    text-decoration: none;
+}
+
+.pageOne:hover,
+.pageTwo:hover,
+.pageThree:hover,
+.pageFour:hover {
+    color: white;
+}
+
+.active {
+    color: lightgreen !important;
+}
+
+.content {
+    margin: 50px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    height: 50px;
+    width: 100vw;
+    align-items: center;
+}
+
+.arrow {
+    height: 40px;
+    width: 20px;
+    margin-left: 300px;
+}
+
+.imp {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.madeby {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    color: brown;
+}
